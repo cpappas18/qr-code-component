@@ -1,8 +1,0 @@
-{
-  "short_name": "QR Code Component",
-  "name": "QR Code Component",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
