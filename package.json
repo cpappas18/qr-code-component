@@ -2,6 +2,7 @@
   "name": "qr-code-component",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://cpappas18.github.io/qr-code-component/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -61,7 +62,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -131,6 +134,7 @@
     "resetMocks": true
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.18.6"
+    "@babel/preset-react": "^7.18.6",
+    "gh-pages": "^4.0.0"
   }
 }
