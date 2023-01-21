@@ -2,7 +2,7 @@ import './App.scss';
 
 function App() {
     return (
-        <div className="App">
+        <main>
             <div className="tile">
                 <img src={require("./image-qr-code.png")} alt="QR code" className="qr-code"/>
                 <div className="text-container">
@@ -10,7 +10,7 @@ function App() {
                     <h2>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h2>
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 
